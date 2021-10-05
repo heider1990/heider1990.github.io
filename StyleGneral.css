@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+
+
+
+
+
+.footer{
+
+    background-color: rgb(198, 227, 252);
+    text-align: left;
+    width: 100%;
+  }

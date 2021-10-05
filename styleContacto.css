@@ -1,0 +1,126 @@
+:root{
+
+
+    --colortextos:var(red)
+}
+
+*,::before,::after{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    font-family: 'IBM Plex Serif', serif;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center; /*Espara centrar de manera horizontal*/
+    align-items: center; /*Espara centrar de manera vertical*/
+
+}
+h1{
+
+    text-align: center;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: 700;
+    
+}
+form{
+    
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    
+    
+
+
+padding: 10px 0;
+box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+form .grupo{
+
+    position: relative;
+    margin: 45px;
+}
+input, textarea{
+
+    display: block;
+    background: none;
+    color: rgb(92, 90, 90);
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    
+    width: 100%;
+    border: none;
+    border-bottom: 1px orange solid;
+    resize: none;
+    
+    
+    
+    
+    
+    
+}
+input:focus,textarea:focus{
+
+    outline: none;
+    color: rgb(94, 93, 93,);
+}
+input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label{
+
+position: absolute;
+top: -14px;
+font-size: 12px;
+color: orange;
+
+}
+label{
+
+    top: 15px;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.3s ease all ;
+    pointer-events: none;
+}
+button{
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: block;
+    cursor: pointer;
+    width: 70px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px auto;
+
+
+
+
+}
+@media screen and (max-width: 1000px) {
+
+    form{
+
+        width: 70%;
+    }
+    
+}

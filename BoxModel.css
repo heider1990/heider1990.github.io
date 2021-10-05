@@ -1,0 +1,204 @@
+
+/*Prppiedades de las cajas::
+
+    Contenido
+    Borde
+    Padding
+    Margin
+    Width
+    Height
+
+    */
+ 
+
+
+    .BloqueVideosTutos{
+
+        background-color: rgb(198, 227, 252);
+        color: black;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        border-radius: 50px 70px;
+        padding-top: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        padding-left: 100px;
+        /* margin es para separar la caja de los elementos que le rodean
+        padding es para aumentar el tamaño de la caja */
+    }
+    .videohead{
+      background-color: rgb(249, 251, 252);
+
+        width:90%;
+        height: 10%;
+        margin-left: 5%;
+        padding-top: 8%;
+        
+        
+    }
+    .BodyInicio{
+        
+        position: sticky;
+        top: 0px;
+        
+
+
+
+    }
+.Block{
+
+  position: relative;
+  
+}
+    
+    
+    .blockCompras{
+
+
+        background-color: rgb(249, 251, 252);
+        
+        
+        border-radius: 50px 25px;
+        position: relative;
+        
+        margin: 30px 10px 10px 10px;
+        padding-top: 20px;
+        padding-right: 150px;
+        padding-bottom: 180px;
+        padding-left: 20px;
+        text-align: center;
+        
+        overflow: hidden;
+        display: inline-flex;
+        
+        
+        
+        
+      }
+      .imagetiendaonline{
+        
+        position: absolute;
+        padding-top: 30px;
+        
+      }
+      
+      .Textocompras{
+        color: black;
+        margin: 0px 1px 1px 29px;
+        position: absolute;
+        
+        
+      }
+        
+      
+      
+      .blockNormas{
+      
+      
+        background-color: rgb(249, 251, 252);
+        
+        
+        border-radius: 50px 25px;
+        position: relative;
+        margin: 30px 10px 10px 10px;
+        padding-top: 20px;
+        padding-right: 150px;
+        padding-bottom: 180px;
+        padding-left: 20px;
+        text-align: center;
+        
+        overflow: hidden;
+        display: inline-flex;
+        
+      
+      }
+      .imagenNormatividad{
+      
+        position: absolute;
+        padding-top: 15px;
+      
+      
+      
+      }
+      
+      .TextoNormasFV{
+        color: black;
+        margin: 0px 0px 0px 0px;
+        position: absolute;
+        padding-left: 10px;
+      
+      
+      
+      }
+      .Calculadora{
+      
+        background-color: rgb(249, 251, 252);
+        
+        
+        border-radius: 50px 25px;
+        position: relative;
+        margin: 30px 10px 10px 10px;
+        padding-top: 20px;
+        padding-right: 150px;
+        padding-bottom: 180px;
+        padding-left: 20px;
+        text-align: center;
+        
+        overflow: hidden;
+        display: inline-flex;
+      
+      
+      }
+      .Imagenpresupuesto{
+      
+      
+        position: absolute;
+        padding-top: 30px;
+      
+      }
+      .Textocalculo{
+      
+        color: black;
+        margin: 0px 0px 0px 0px;
+        position: absolute;
+        padding-left: 10px;
+      
+      
+      }
+      
+      .blockPromociones{
+      
+        background-color: rgb(249, 251, 252);
+        
+        
+        border-radius: 50px 25px;
+        position: relative;
+        margin: 30px 10px 10px 10px;
+        padding-top: 20px;
+        padding-right: 150px;
+        padding-bottom: 180px;
+        padding-left: 20px;
+        text-align: center;
+        
+        overflow: hidden;
+        display: inline-flex;
+      
+      
+      
+      
+      }
+      .imagenpromo{
+        position: absolute;
+        padding-top: 30px;
+      
+      }
+      
+      .Textopromo{
+      
+        color: black;
+        margin: 0px 0px 0px 0px;
+        position: absolute;
+        padding-left: 10px;
+      
+      }

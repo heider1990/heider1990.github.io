@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/web/Style.CSS">
+    <link rel="stylesheet" href="/web/StylePrin.css">
+    <link rel="stylesheet" href="/web/BoxModel.css">
+    <script src="https://kit.fontawesome.com/592f382374.js" crossorigin="anonymous"></script>
+    <title>Cotizacion</title>
+
+
+
+
+
+</head>
+<body>
+    <!--
+            Contenido principal de la pagina
+        -->
+        <header class="cabexa">
+            <nav class="nav-main">
+                <!--Imagen de la portada-->
+                <a href="WebDemo.html" class="Portada">
+             <picture class="Portada">
+                 
+                <source class="PortadaWEBCompras" srcset="/web/assets/images/voltaico_3.png" media="(max-width:900px)">
+                <img class="PortadaWEB" src="/web/assets/images/voltaico_2.png" alt="portada">
+                 
+             </picture>
+            </a>
+             
+         
+         <!--box-red-->
+         <div class="nav-main__btn-collapse-bg"></div>
+          <!--Boton menu-->
+         <input type="checkbox" class="nav-main__btn-collapse" id="nav-main__checkbox">
+         
+         <label for="nav-main__checkbox" class="nav-main__btn-collapse-icon"> 
+             
+               <!--Estas son las tres lineas del boton menu-->
+               <span class="icon-nav"></span>
+               <span class="icon-nav"></span>
+               <span class="icon-nav"></span>
+               
+               
+             
+         </label>
+         
+          
+          <!--social network-->
+          
+          <!--Menu-->
+         <!--Informacion del boton menu-->
+          <div class="nav-main__menu">
+              <a href="" class="nav-main__link-item">Nosotros
+                 <i class="far fa-grin-beam"></i>
+              </a>
+              <a href="" class="nav-main__link-item">Servicios
+                 <i class="far fa-sun"></i>
+              </a>
+              <a href="" class="nav-main__link-item">Aprende gratis
+                 <i class="fas fa-solar-panel"></i>
+              </a>
+              <a href="" class="nav-main__link-item">Contacto
+                 <i class="far fa-envelope"></i>
+              </a>
+          </div>
+         
+         
+         
+         </nav>
+         
+         </header>
+         <!--Boton-->
+         
+         
+           <!-- <ul class="nav_menu">
+         
+             <li class="nav_item1">Nosotros</li>
+             <li class="nav_item1">Contactanos</li>
+             <li class="nav_item1">Noticias</li>
+             <li class="nav_item1">Videos</li>
+             <li class="nav_item1">Tienda</li>
+         
+            </ul>
+         
+         -->
+         <!--
+         <picture>
+             <source class="PortadaWEB" srcset="/web/assets/images/PortadaMobileP.png" media="(max-width:900px)">
+             <img class="PortadaWEB" src="/web/assets/images/PortadaPrincipal.webp" alt="portada">
+             
+                </picture>
+                -->
+         
+         <!---->
+         </nav>
+         
+    <H1 class="headInicio">Menu</H1>
+
+    <img src="/web/assets/images/autonomo-cotizacion-min.jpg" alt="" width="300" height="200">
+
+    <h1>Calculo del presupuesto de su instalacion fv</h1>
+    <form>
+    
+    <h2>Selecciona el tipo de red</h2>
+    <label> 120V
+    <input type="radio" name="tipo de red" value="Monofasico 120">
+    </label>
+    <label> 220v bifasico
+    <input type="radio" name="tipo de red" value="Bifasico 220">
+    </label>
+    <label> 220 trifasico
+    <input type="radio" name="tipo de red" value="Trifasico 220">
+    </label>
+    <br>
+
+
+    <h2>Tipo de Paneles</h2>
+    <select name="Paneles" id="">
+        <optgroup label="Monocristalino"> 
+            <option value="mono">330w</option>
+            <option value="mono">450w</option>
+            <option value="mono">530w</option>
+
+
+        </optgroup>
+        <optgroup label="Policristalino">
+    
+    <option value="poli">60w</option>
+    <option value="poli">100w</option>
+    <option value="poli">250w</option>
+    <option value="poli">300w</option>
+
+</optgroup>
+</select>
+
+
+    
+
+    <!--
+
+Elementos seleccionables con Datalist
+
+    -->
+
+
+    
+<h2>Tipo de Instalacion </h2>
+<input type="list" list="Tipo de instalacion" required>
+
+<datalist id="Tipo de instalacion" >
+<option value="Ongrid"> Ahorro de energia </option>
+<option value="Offgrid"> Zonas aisladas </option>
+<option value="Hibrido Offgrid"> Zonas aisladas </option>
+<option value="Hibrido Ongrid"> Ahorro y respaldo de energia</option>
+</datalist>
+    
+
+
+
+<div>
+    
+    <label for="message"> Mensaje</label>
+    <div>
+<textarea name="Observaciones" required id="message" cols="30" rows="8"></textarea>
+</div>
+</div>
+
+<button>Enviar</button>
+<input type="reset">
+</form>
+<a href="WebDemo.html"> ir a Inicio</a>
+
+<div>
+    <address class="footer" >
+        Direccion: Carrera 85 <br>
+        Telefono : 3228185255 <br>
+        Ciudad   : Bogota <br>
+    </address>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styleContacto.css">
+    <link rel="stylesheet" href="/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/correo.php">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap" rel="stylesheet">
+    <title> Contacto | voltaico</title>
+</head>
+<body>
+    
+<form action="correo.php" method="POST">
+
+    
+
+        <h1>formulario</h1>
+        <div class="grupo">
+            <input type="text" name="Nombre" id="" required> <span class="barra"></span>
+            <label>Nombre</label>
+        </div>
+        <div class="grupo">
+            <input type="number" name="numero" id="" required> <span class="barra"></span>
+            <label>Telefono</label>
+        </div>
+        <div class="grupo">
+            <input type="email" name="email" id="" required> <span class="barra"></span>
+            <label>Email</label>
+        </div>
+        <div class="grupo">
+            <textarea name="Pregunta" id="" required  requiredrows="3"></textarea> <span class="barra"></span>
+            <label>Pregunta</label>
+        </div>
+        <button type="submit">Enviar</button>
+    
+</form>
+</body>
+</html>

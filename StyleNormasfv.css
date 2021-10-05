@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: sans-serif;
+  
+
+  background-color:rgb(249, 251, 252)
+  
+    
+}
+
+.logonormas{
+    position:relative;
+    
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    height: 100px;
+    width: 100px;
+    
+    margin-bottom: 10px;
+    justify-content: center;
+
+}
+
+.headInicio{
+
+    margin-top:55px;
+}
