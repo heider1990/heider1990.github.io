@@ -1,0 +1,79 @@
+:root{
+
+    --primary-color  : red;
+  
+  --primary-color-alt:  #335DBF;
+  
+  --title-color : yellow;
+  --text-color : pink;
+  
+  --body-bg-color: gray;
+  --white-color: #ffffff;
+  
+  --color:var(--primary-color);
+  
+  --color-alt: var(--primary-color-alt);
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+  
+  a{
+    color: var(--text-color);
+  }
+  p{
+  
+    margin-top: 0;
+  }
+  h1,h2,h3,h4,h5,h6{
+  
+    color: rgb(44, 39, 39);
+    font-weight: 800;
+  }
+  
+  .titlePrin{
+
+    margin-top: 8%;
+    margin-bottom: 3%;
+  }
+  
+  
+  
+  
+  .section-container h1,
+  .section-container h2 {
+  text-align: center;
+  
+  }
+  /**/
+  .image34{
+      align-items: center;
+
+  }
+  .service-items{
+  
+  text-align: center;
+    justify-content: center;
+    
+  }
+  
+  @media screen and (min-width:800px){
+  
+  .services-section .content-wrapper{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+   
+  }
+  
+  
+  }
+  @media screen and (max-width:1000px){
+    .image34{
+      width: 80%;
+    }
+    
+  }
+  
+  .services-section{
+    margin-top: 56px;
+  }
